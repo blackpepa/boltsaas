@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap");
+.transformar:hover {
+  transform: translate(0px, -12px);
+  cursor: pointer; }
+
+#botonera {
+  background-color: rgba(250, 36, 36, 0.75); }
+  #botonera img {
+    width: 30%; }
+  #botonera ul li a {
+    font-size: medium;
+    font-style: bold;
+    color: black;
+    background: linear-gradient(pink, violet);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+  #botonera ul li a:hover {
+    color: #f5eeee;
+    background-size: 100% 2px; }
+
+body {
+  background-color: rgba(228, 228, 228, 0.75); }
+
+header h2 {
+  font-family: "Electrolize";
+  text-align: center; }
+
+header h1 {
+  text-align: center; }
+
+#servicios {
+  background: linear-gradient(to right, violet, cyan); }
+  #servicios h2 {
+    font-family: "Electrolize";
+    text-align: center; }
+  #servicios p {
+    text-align: center;
+    font-size: 3rem; }
+
+#trabajos {
+  background-color: rgba(39, 199, 211, 0.5); }
+  #trabajos h2 {
+    font-family: "Electrolize";
+    text-align: center; }
+
+#clientes {
+  background: linear-gradient(to right, violet, cyan); }
+  #clientes h2 {
+    font-family: "Electrolize";
+    text-align: center; }
+  #clientes img:hover {
+    transform: translate(0px, -12px);
+    cursor: pointer; }
+
+#nosotros {
+  background-color: rgba(39, 199, 211, 0.5); }
+  #nosotros h2 {
+    font-family: "Electrolize";
+    text-align: center; }
+  #nosotros p {
+    font-size: 1.8rem;
+    text-align: justify; }
+
+#formulario h2 {
+  font-family: "Electrolize";
+  text-align: center; }
+
+#formulario p {
+  text-align: center;
+  font-size: 1.8rem; }
+
+#formulario textarea {
+  height: 300px;
+  font-size: 1.3rem; }
+
+#formulario input {
+  font-size: 1.3rem; }
+
+#formulario label {
+  font-size: 1rem; }
+
+#formulario button {
+  font-size: 1.5rem; }
+
+#head {
+  width: 100%; }
+
+#textSection {
+  text-align: center; }
+
+#back__PG {
+  background: linear-gradient(to right, violet, cyan); }
+
+.linkText {
+  text-decoration: none;
+  color: #631a08; }
+
+.clientesBtn:hover {
+  transform: scale(1.2);
+  transition: 2s; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.25); }
+  footer h6 {
+    font-size: 1rem; }
+  footer aside h5 {
+    font-size: 1rem; }
+  footer aside ul {
+    list-style: none;
+    margin-bottom: 10%; }
+  footer aside ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 1rem;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+  footer ul li a:hover {
+    color: #f5eeee;
+    background-size: 100% 2px; }

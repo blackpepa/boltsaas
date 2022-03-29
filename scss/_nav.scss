@@ -1,0 +1,22 @@
+#botonera{
+    background-color: $navColor;
+        
+    img{
+        width: 30%;
+        }
+        ul li a{
+            font-size: medium;
+            font-style: bold;
+            color: $titleColor;
+            background: linear-gradient(pink, violet);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            }
+            ul li a:hover{
+                color: rgb(245, 238, 238);
+                background-size: 100% 2px;
+                }
+
+}

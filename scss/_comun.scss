@@ -1,0 +1,28 @@
+//fondos
+$navColor:rgba(250, 36, 36, 0.75);
+$bodyColor: rgba(228, 228, 228, 0.75);
+
+
+//texto
+$titleColor: black;
+$textColor: rgb(99, 26, 8);
+
+
+$textCenter: center;
+$textRight: right;
+$textLeft: left;
+$textJust:justify;
+
+$textXl: 3rem;
+$textLg: 2.5rem;
+$textMd: 2rem;
+$textSm: 1.8rem;
+$textXs: 1.4rem;
+
+
+$w-100: 100%;
+
+.transformar:hover{
+    transform: translate(0px, -12px);
+    cursor: pointer;
+}

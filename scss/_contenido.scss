@@ -1,0 +1,102 @@
+body{
+    background-color: $bodyColor;
+}
+header{
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+    h1{
+        text-align: $textCenter;
+    }
+}
+
+#servicios{
+    background: linear-gradient(to right, violet, cyan);
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+        p{
+            text-align: $textCenter;
+            font-size: $textXl;
+        }
+}
+
+#trabajos{
+    background-color: rgba(39, 199, 211, 0.5);
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+}
+#clientes{
+    background: linear-gradient(to right, violet, cyan);
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+        img:hover{
+                transform: translate(0px, -12px);
+                cursor: pointer;
+        }
+
+}
+
+
+#nosotros{
+    background-color: rgba(39, 199, 211, 0.5);
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+        p{
+            font-size: $textMD;
+            text-align: $textJust;
+        }
+}
+#formulario{
+    h2{
+        font-family: $titleFont;
+        text-align: $textCenter;
+    }
+        p{
+            text-align: $textCenter;
+            font-size: $textMD;
+        }
+            textarea{
+                height: 300px;
+                font-size: $textXS;
+            }
+                input{
+                    font-size: $textXS;
+                }
+                    label{
+                        font-size: $textXXS;
+                    }
+
+                        button{
+                            font-size: $textSM;
+                        }
+}
+
+#head{
+    width: $w-100;
+}
+#textSection{
+    text-align: $textCenter;
+}
+
+#back__PG{
+    background: linear-gradient(to right, violet, cyan);
+}
+
+.linkText{
+    text-decoration: none;
+    color: $textColor;
+}
+
+.clientesBtn:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
