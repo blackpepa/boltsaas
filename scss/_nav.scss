@@ -1,5 +1,5 @@
 #botonera{
-    background-color: $navColor;
+    background-color: map-get($map:$fondos,$key:"uno");
         
     img{
         width: 30%;

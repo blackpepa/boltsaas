@@ -1,11 +1,6 @@
-//fondos
-$navColor:rgba(250, 36, 36, 0.75);
-$bodyColor: rgba(228, 228, 228, 0.75);
-
-
 //texto
 $titleColor: black;
-$textColor: rgb(99, 26, 8);
+$textColor: rgb(34, 26, 24);
 
 
 $textCenter: center;
@@ -25,4 +20,27 @@ $w-100: 100%;
 .transformar:hover{
     transform: translate(0px, -12px);
     cursor: pointer;
+}
+
+$fondos:(
+    "uno":rgba(250, 36, 36, 0.75),
+    "dos":rgba(228, 228, 228, 0.75),
+    "tres":linear-gradient(to right, violet, cyan),
+    "cuatro": rgba(39, 199, 211, 0.5),
+    "cinco": rgb(175, 103, 175),
+    "seis": aqua,
+    "siete": black,
+    "ocho":white,
+);
+
+@mixin flex($justify, $align){
+	display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flexdos($align2, $direction){
+    display: flex;
+    align-items: $align2;
+    flex-direction: $direction;
 }
